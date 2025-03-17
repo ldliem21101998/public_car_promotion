@@ -8,7 +8,7 @@ import {
   notification,
 } from "antd";
 import { DownPaymentService } from "../../services/mail.services";
-import qr from "../../assets/QR.png";
+import qr from "../../assets/QR.jpg";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
@@ -86,11 +86,11 @@ const StepFour = ({ onNext, onBack, isBackStep, formData }) => {
             <div className="space-y-2 flex flex-col justify-center items-center w-full mt-4 text-[14px]">
               <div className="flex flex-row gap-2 text-center">
                 <label className="">Tên Chủ Tài Khoản:</label>
-                <p className="">CÔNG TY CỔ PHẦN Ô TÔ GEL-O&J</p>
+                <p className="">CÔNG TY CỔ PHẦN Ô TÔ</p>
               </div>
               <div className="flex flex-row gap-2 text-center">
                 <label className="">Số Tài Khoản:</label>
-                <p className="">99669966</p>
+                <p className="">0965180127</p>
               </div>
               <div className="flex flex-row gap-2">
                 <label className="">Số Tiền:</label>
@@ -103,7 +103,7 @@ const StepFour = ({ onNext, onBack, isBackStep, formData }) => {
               </div>
 
               <div className="flex flex-row gap-2 text-center">
-                <label className="">Ngân hàng TMCP An Bình</label>
+                <label className="">Ngân hàng TMCP Tiên Phong</label>
               </div>
             </div>
           </div>
