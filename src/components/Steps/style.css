@@ -1,0 +1,48 @@
+.ant-steps-item-title {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    height: fit-content !important;
+  }
+  
+  .ant-steps-item-description {
+    font-size: 14px !important;
+    height: fit-content !important;
+  }
+  
+  .ant-steps-item-tail {
+    margin-inline-start: 104px !important;
+    height: 10px !important;
+    margin-top: 6px !important;
+    width: 10px !important;
+    color: white !important;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* Màu nền bao quanh */
+    height: 100vh; /* Chỉ để căn giữa, có thể thay đổi */
+  }
+
+  .custom-button {
+    background-color: white; /* Màu nền nút */
+    color: #00577d; /* Màu chữ */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    position: relative;
+    clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 50%, calc(100% - 10px) 100%, 0 100%);
+    transition: transform 0.3s ease;
+  }
+
+  .custom-button:hover {
+    transform: scale(1.05);
+  }
+
+  .ant-col label {
+    color: white !important;
+  }

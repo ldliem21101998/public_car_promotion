@@ -1,0 +1,149 @@
+.absolute-horizontal-center {
+  transform: translate(-50%, 0);
+}
+
+.absolute-vertical-center {
+  transform: translate(0, -50%);
+}
+
+.absolute-center {
+  transform: translate(-50%, -50%);
+}
+
+.step-custom .ant-steps-item {
+  position: relative;
+}
+
+.step-custom .ant-steps-item::after {
+  content: "";
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  width: 130px; /* Độ dài của đường kẻ */
+  height: 2px;
+  background-color: #979797; /* Màu đường kẻ */
+  transform: translateY(-50%);
+  z-index: -1;
+}
+/* Custom styles for hiding the line from 360px to 1024px */
+@media (min-width: 360px) and (max-width: 1024px) {
+  .step-custom .ant-steps-item::after {
+    display: none; /* Hide the line between 360px and 1024px */
+  }
+}
+
+.step-custom .ant-steps-item:last-child::after {
+  display: none; /* Không hiển thị đường kẻ sau bước cuối */
+}
+
+.step-custom .ant-steps-item-finish::after {
+  background-color: #20648e; /* Đường kẻ màu hoàn thành */
+}
+
+.custome_form .ant-select {
+  background-color: transparent !important; /* Nền trong suốt */
+  color: white !important; /* Màu chữ */
+}
+
+.custome_form .ant-select-selector {
+  background-color: transparent !important; /* Nền vùng chọn */
+  color: white !important; /* Màu chữ */
+}
+
+.custome_form .ant-select-dropdown {
+  background-color: white !important; /* Nền danh sách tùy chọn */
+  color: black !important; /* Màu chữ danh sách */
+}
+
+.custome_form .ant-select-item-option-active {
+  background-color: #e6f7ff !important; /* Màu nền khi hover */
+  color: black !important; /* Màu chữ khi hover */
+}
+
+.custome_form .ant-select-selection-placeholder {
+  color: white !important;
+  opacity: 0.6; /* Độ trong suốt */
+}
+
+.custome_form .ant-input {
+  background-color: transparent !important; /* Nền trong suốt */
+  color: white !important; /* Màu chữ */
+  border-color: #979797 !important; /* Viền mặc định */
+  border-radius: 8px !important; /* Bo góc */
+}
+
+.custome_form .ant-input::placeholder {
+  color: #ccc !important; /* Màu chữ placeholder */
+  opacity: 1 !important; /* Đảm bảo không bị trong suốt */
+}
+
+.custome_form .ant-input:focus {
+  border-color: #518ac2 !important; /* Màu viền khi focus */
+  box-shadow: none !important; /* Loại bỏ hiệu ứng shadow */
+}
+
+.custome_form .ant-picker {
+  background-color: transparent !important; /* Làm nền trong suốt */
+  border: 1px solid #ffffff80 !important; /* Đường viền mờ hoặc tùy chỉnh */
+  color: white !important; /* Màu chữ */
+}
+
+.custome_form .ant-picker:hover,
+.custome_form .ant-picker-focused {
+  border-color: #ffffff !important; /* Đổi màu viền khi hover/focus */
+  box-shadow: none !important; /* Tắt hiệu ứng shadow mặc định */
+}
+
+.custome_form .ant-picker-input > input {
+  color: white !important;
+  height: 18px; /* Màu chữ bên trong */
+}
+
+.custome_form .ant-picker-suffix {
+  color: white !important; /* Màu của biểu tượng lịch */
+}
+
+.custome_modal .ant-modal-mask {
+  background: rgba (0, 0, 0, 1) !important;
+
+  /* Màu nền đen */
+}
+
+/* Nền bên trong Modal */
+
+.custome_modal .ant-modal-content {
+  background-color: black !important;
+
+  color: white !important
+;
+  /* Màu chữ trắng */
+}
+
+/* Tùy chỉnh padding và nội dung bên trong modal */
+
+.custome_modal .ant-modal-body {
+  padding: 20px;
+}
+
+/* Đảm bảo rằng icon không bị ẩn */
+
+.ant-select-arrow {
+  display: inline-flex !important
+  
+;
+}
+.ani_fadeIn {
+  animation-duration: 2s !important; /* Tùy chỉnh thời gian hiệu ứng fadeIn */
+}
+
+@font-face {
+  font-family: "biosan";
+  src: url("/src/assets/fonts/SVNBioSansRegular.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "hemihead";
+  src: url("/src/assets/fonts/HemiHead.otf") format("truetype");
+  font-style: normal;
+}

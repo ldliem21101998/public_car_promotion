@@ -1,0 +1,135 @@
+import imgSensor_1 from "../assets/SensorGrid/sensor_1.webp";
+import imgSensor_2 from "../assets/SensorGrid/sensor_2.webp";
+import imgSensor_3 from "../assets/SensorGrid/sensor_3.webp";
+import imgSensor_4 from "../assets/SensorGrid/sensor_4.webp";
+import imgSensor_5 from "../assets/SensorGrid/sensor_5.webp";
+import imgSensor_6 from "../assets/SensorGrid/sensor_6.webp";
+import imgSensor_7 from "../assets/SensorGrid/sensor_7.webp";
+import imgSensor_8 from "../assets/SensorGrid/sensor_8.webp";
+import imgSensor_9 from "../assets/SensorGrid/sensor_9.webp";
+
+export const dataSensor = [
+  {
+    key: "1",
+    title: "Cảnh báo va chạm trước & Hệ thống phanh tự động",
+    img: imgSensor_1,
+  },
+  {
+    key: "2",
+    title: "Gương cảnh báo điểm mù",
+    img: imgSensor_2,
+  },
+  {
+    key: "3",
+    title: "Camera 540°",
+    img: imgSensor_3,
+  },
+  {
+    key: "4",
+    title: "Cảnh báo va chạm sau",
+    img: imgSensor_4,
+  },
+  {
+    key: "5",
+    title: "Camera cảnh báo theo dõi trạng thái lá",
+    img: imgSensor_5,
+  },
+  {
+    key: "6",
+    title: "Hệ thống cảnh báo lệch làn",
+    img: imgSensor_6,
+  },
+  {
+    key: "7",
+    title: "Hệ thống hỗ trợ chuyển làn",
+    img: imgSensor_7,
+  },
+  {
+    key: "8",
+    title: "Hệ thống hỗ trợ kẹt xe",
+    img: imgSensor_8,
+  },
+  {
+    key: "9",
+    title: "Hệ thống hỗ trợ giữ làn",
+    img: imgSensor_9,
+  },
+];
+
+export const provice = [
+  { id: 1, name: "An Giang" },
+  { id: 2, name: "Bà Rịa - Vũng Tàu" },
+  { id: 3, name: "Bắc Giang" },
+  { id: 4, name: "Bắc Kạn" },
+  { id: 5, name: "Bạc Liêu" },
+  { id: 6, name: "Bắc Ninh" },
+  { id: 7, name: "Bến Tre" },
+  { id: 8, name: "Bình Định" },
+  { id: 9, name: "Bình Dương" },
+  { id: 10, name: "Bình Phước" },
+  { id: 11, name: "Bình Thuận" },
+  { id: 12, name: "Cà Mau" },
+  { id: 13, name: "Cần Thơ" },
+  { id: 14, name: "Cao Bằng" },
+  { id: 15, name: "Đà Nẵng" },
+  { id: 16, name: "Đắk Lắk" },
+  { id: 17, name: "Đắk Nông" },
+  { id: 18, name: "Điện Biên" },
+  { id: 19, name: "Đồng Nai" },
+  { id: 20, name: "Đồng Tháp" },
+  { id: 21, name: "Gia Lai" },
+  { id: 22, name: "Hà Giang" },
+  { id: 23, name: "Hà Nam" },
+  { id: 24, name: "Hà Nội" },
+  { id: 25, name: "Hà Tĩnh" },
+  { id: 26, name: "Hải Dương" },
+  { id: 27, name: "Hải Phòng" },
+  { id: 28, name: "Hậu Giang" },
+  { id: 29, name: "Hòa Bình" },
+  { id: 30, name: "Hưng Yên" },
+  { id: 31, name: "Khánh Hòa" },
+  { id: 32, name: "Kiên Giang" },
+  { id: 33, name: "Kon Tum" },
+  { id: 34, name: "Lai Châu" },
+  { id: 35, name: "Lâm Đồng" },
+  { id: 36, name: "Lạng Sơn" },
+  { id: 37, name: "Lào Cai" },
+  { id: 38, name: "Long An" },
+  { id: 39, name: "Nam Định" },
+  { id: 40, name: "Nghệ An" },
+  { id: 41, name: "Ninh Bình" },
+  { id: 42, name: "Ninh Thuận" },
+  { id: 43, name: "Phú Thọ" },
+  { id: 44, name: "Phú Yên" },
+  { id: 45, name: "Quảng Bình" },
+  { id: 46, name: "Quảng Nam" },
+  { id: 47, name: "Quảng Ngãi" },
+  { id: 48, name: "Quảng Ninh" },
+  { id: 49, name: "Quảng Trị" },
+  { id: 50, name: "Sóc Trăng" },
+  { id: 51, name: "Sơn La" },
+  { id: 52, name: "Tây Ninh" },
+  { id: 53, name: "Thái Bình" },
+  { id: 54, name: "Thái Nguyên" },
+  { id: 55, name: "Thanh Hóa" },
+  { id: 56, name: "Thừa Thiên Huế" },
+  { id: 57, name: "Tiền Giang" },
+  { id: 58, name: "TP Hồ Chí Minh" },
+  { id: 59, name: "Trà Vinh" },
+  { id: 60, name: "Tuyên Quang" },
+  { id: 61, name: "Vĩnh Long" },
+  { id: 62, name: "Vĩnh Phúc" },
+  { id: 63, name: "Yên Bái" },
+];
+export const datashowroom = [
+  { id: 0, name: "Quyết định sau", province: "all" },
+  { id: 1, name: "Omoda & Jaecoo Bắc Từ Liêm", province: "Hà Nội" },
+  { id: 2, name: "Omoda & Jaecoo Cầu Giấy", province: "Hà Nội" },
+  { id: 3, name: "Omoda & Jaecoo Thanh Xuân", province: "Hà Nội" },
+  { id: 4, name: "Omoda & Jaecoo Phúc Thọ", province: "Hà Nội" },
+  { id: 5, name: "Omoda & Jaecoo Hưng Yên", province: "Hưng Yên" },
+  { id: 6, name: "Omoda & Jaecoo Thanh Hóa", province: "Thanh Hóa" },
+  { id: 7, name: "Omoda & Jaecoo Cần Thơ", province: "Cần Thơ" },
+  { id: 8, name: "Omoda & Jaecoo Đà Năng", province: "Đà Nẵng" },
+  { id: 9, name: "Omoda & Jaecoo Bình Chánh", province: "TP Hồ Chí Minh" },
+];
